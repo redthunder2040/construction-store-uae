@@ -1,0 +1,12 @@
+# Construction Store — Apache configuration
+Options -Indexes
+DirectoryIndex index.php
+
+<FilesMatch "\.(sql|md|log)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>

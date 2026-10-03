@@ -1,0 +1,23 @@
+# Apache configuration for the Construction Store application.
+# Keeps the folder reachable from any URL shape and prevents directory listings.
+
+# index.php is the entry point even if it is left out of the URL.
+DirectoryIndex index.php index.html
+
+# Do not show the file list when a folder is opened without a file name.
+Options -Indexes
+
+# Never serve the SQL dump or the config file as plain text over HTTP.
+<FilesMatch "\.(sql|md|log|json|sh)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Friendly error pages: a wrong URL inside the app returns the app's own page
+# instead of Apache's bare "Not Found" screen.
+ErrorDocument 404 /construction-store/not_found.php
