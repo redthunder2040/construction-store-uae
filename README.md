@@ -1,4 +1,4 @@
-\# Construction Store — Inventory \& Stock Movement System- uae
+# Construction Store — Inventory \& Stock Movement System- uae
 
 
 
@@ -19,11 +19,11 @@ It runs on a normal \*\*XAMPP\*\* installation by unzipping one folder and impor
 
 
 
-\---
+---
 
 
 
-\## 1. Requirements
+## 1. Requirements
 
 
 
@@ -39,11 +39,11 @@ It runs on a normal \*\*XAMPP\*\* installation by unzipping one folder and impor
 
 
 
-\---
+---
 
 
 
-\## 2. Installation on XAMPP (5 minutes)
+## 2. Installation on XAMPP (5 minutes)
 
 
 
@@ -103,7 +103,7 @@ It runs on a normal \*\*XAMPP\*\* installation by unzipping one folder and impor
 
 
 
-\### Default accounts
+### Default accounts
 
 
 
@@ -127,11 +127,11 @@ It runs on a normal \*\*XAMPP\*\* installation by unzipping one folder and impor
 
 
 
-\---
+---
 
 
 
-\## 3. What each user level can do
+## 3. What each user level can do
 
 
 
@@ -165,11 +165,11 @@ not just by hiding menu items.
 
 
 
-\---
+---
 
 
 
-\## 4. Feature list
+## 4. Feature list
 
 
 
@@ -273,11 +273,11 @@ not just by hiding menu items.
 
 
 
-\---
+---
 
 
 
-\## 5. Project structure
+## 5. Project structure
 
 
 
@@ -345,11 +345,11 @@ construction-store/
 
 
 
-\---
+---
 
 
 
-\## 6. How stock quantity stays correct
+## 6. How stock quantity stays correct
 
 
 
@@ -369,11 +369,11 @@ construction-store/
 
 
 
-\---
+---
 
 
 
-\## 7. Notes, tips and troubleshooting
+## 7. Notes, tips and troubleshooting
 
 
 
@@ -405,11 +405,11 @@ construction-store/
 
 
 
-\---
+---
 
 
 
-\## 8. Sample data that ships in `install.sql`
+## 8. Sample data that ships in `install.sql`
 
 
 
